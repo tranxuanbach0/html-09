@@ -1,0 +1,18 @@
+.all{
+    display: flex;
+    background-color: #f1f1f1;
+    width: 800px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+.all div{
+    background-color: #2ecc71;
+    padding: 20px;
+    flex-direction: column;
+    margin: 10px;
+    width: 70px;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+}

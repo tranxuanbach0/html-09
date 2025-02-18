@@ -1,0 +1,33 @@
+.a{
+    display: flex;
+    flex-wrap: wrap;
+}
+.b{
+    width: 100%;
+    background-color: #3498db;
+    padding: 30px;
+}
+.c{
+    margin-top: 10px;
+    flex-grow: 1;
+    background-color: #2ecc71;
+    height: 550px;
+    padding: 30px;
+}
+.d{
+    margin-top: 10px;
+    margin-left: 10px;
+    flex-grow: 2;
+    background-color: #e74c3c;
+    height: 550px;
+    padding: 30px;
+}
+.e{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #9b59b6;
+    padding: 30px;
+}
+*{
+    color: aliceblue;
+}

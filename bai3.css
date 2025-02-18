@@ -1,0 +1,32 @@
+.all{
+    display: flex;
+    background-color: #f1f1f1;
+    width: 520px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+.b{
+    background-color: #3498db;
+    padding: 20px;
+    flex-direction: column;
+    margin: 10px;
+    width: 70px;
+    align-items: center;
+    display: flex;
+     border-radius: 5px;
+}
+.a{
+    background-color: #3498db;
+    padding: 20px;
+    flex-direction: column;
+    margin: 10px;
+    flex-grow: 2;
+    align-items: center;
+    display: flex;
+     border-radius: 5px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
